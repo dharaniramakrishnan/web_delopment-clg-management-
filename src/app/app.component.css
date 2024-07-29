@@ -1,0 +1,18 @@
+/* app.component.css */
+a {
+    color: blue; /* Change the text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Change font size */
+    padding: 10px; /* Add padding */
+  }
+  
+  a:hover {
+    color: darkblue; /* Change color on hover */
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .active-link {
+    font-weight: bold; /* Bold text for active link */
+    color: red; /* Change color for active link */
+  }
+  

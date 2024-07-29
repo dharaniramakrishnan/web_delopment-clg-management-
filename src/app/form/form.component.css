@@ -1,0 +1,102 @@
+/* Form Container with Background Image */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Background Image */
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNkpyAF_ezjx3NxwvT4v4glusxsXt26RiL1w&s');
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Form Fields Container */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Label Styles */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+textarea,
+select {
+  width: calc(100% - 20px);
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+textarea:focus,
+select:focus {
+  border-color: #66afe9;
+}
+
+/* Textarea Styles */
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Button Styles */
+button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:not(:disabled):hover {
+  background-color: #218838;
+}
+
+/* Error Message Styles */
+.error {
+  color: #dc3545;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+/* Success Message Styles */
+.success {
+  text-align: center;
+  color: #28a745;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
